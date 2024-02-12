@@ -1,8 +1,8 @@
 from proyect0 import create_app
 from flask_restful import Api
 from flask_jwt_extended import JWTManager
-from .model import db, TokenBlocklist, Categoria
-from .view import VistaCategoria, VistaCategorias, VistaLogIn, VistaSignIn, VistaTareasUsuario, VistaTareaUsuario
+from .proyect0.model import db, TokenBlocklist, Categoria
+from .proyect0.view import VistaCategoria, VistaCategorias, VistaLogIn, VistaSignIn, VistaTareasUsuario, VistaTareaUsuario
 from flask_cors import CORS
 
 app = create_app('default')
